@@ -2,8 +2,8 @@
 
 ## 1 - Abstract
 
-ONE is an extremely minimalistic markup language that allows the user to define a tree of string
-literals.
+ONE is an extremely minimalistic data interchange language that allows the user to define a tree of
+string literals.
 
 String literals may only be encoded in elements, and elements may be nested within one another.
 
@@ -14,13 +14,12 @@ which continues the element, or by a minus sign which ends the element. There mu
 line between the starting and ending lines.
 
 If an element is nested within another element, every line of the element must be preceded by one
-tab for every level it is nested.
+tab for every level it is nested. No whitespace is permitted between elements.
 
-No whitespace is permitted between elements.
+A ONE file is referred to as a "document", and the proper file extension for a ONE file is ".one".
 
-A ONE file is referred to as a "document".
-
-The proper file extension for a ONE file is ".one".
+Among the many other strengths of ONE, it is as easily read by humans as by machines, making it
+just as good for plain text literature as it is for data and code.
 
 ## 2 - Contents
 
