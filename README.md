@@ -456,7 +456,7 @@ This format may be used as a mechanism to make ONE interoperable with S expressi
 #### 2.7.2 - JS API
 
 A JS based parser and serializer for ONE and ONE+ is available on npm under the package name
-"one-lang", and via the following CDN link:
+"one-parser", and via the following CDN link:
 
     https://cdn.jsdelivr.net/gh/Telos-Project/ONE/Code/oneLang.js
 
